@@ -147,3 +147,49 @@ a:hover {
   height: auto;
   overflow: hidden;
 }
+#section3 {
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+#our-work {
+  margin-top: 40px;
+  /* width: calc(100% / 4); */
+  height: auto;
+  background-color: white;
+  box-shadow: 2px 7px 11px rgba(129, 127, 127, 0.39);
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #fafafa;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.icon span {
+  font-size: 35px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#our-work h4 {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+#our-work p {
+  margin-left: 10%;
+  line-height: 35px;
+  color: rgb(105, 105, 105);
+  padding-top: 20px;
+}
+
+.container h2 {
+  font-size: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+}
