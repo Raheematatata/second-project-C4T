@@ -193,3 +193,22 @@ a:hover {
   margin-top: 40px;
   font-weight: bold;
 }
+#marketing-process {
+  margin-top: 40px;
+  /* width: calc(100% / 4); */
+  height: auto;
+}
+#marketing-process h3 {
+  margin-left: 30px;
+}
+
+#marketing-process p {
+  line-height: 33px;
+  margin-left: 30px;
+}
+
+#section4 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
