@@ -124,3 +124,26 @@ a:hover {
     width: 100%;
   }
 }
+#about-us {
+  /* width: calc(100% / 3); */
+  /* height: 200px; */
+}
+
+#about-us h2 {
+  font-weight: bold;
+}
+
+#about-us h3 {
+  font-weight: bold;
+}
+
+#about-us p {
+  line-height: 33px;
+  color: rgb(105, 105, 105);
+}
+
+#section2 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
