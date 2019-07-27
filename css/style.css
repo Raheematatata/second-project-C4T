@@ -415,3 +415,74 @@ input[type="button"] {
   text-align: center;
   margin-top: 15px;
 }
+/* Responsiveness for small screens  */
+@media screen and (max-width: 400px) {
+  #banner-1 {
+    float: none;
+    width: 100%;
+  }
+
+  .lettering {
+    width: 100%;
+    float: none;
+  }
+
+  #part1 {
+    width: 100%;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  #banner-1 {
+    text-align: left;
+    float: none;
+  }
+
+  #contact-us {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+  }
+
+  #marketing-process {
+    margin-top: 40px;
+    /* width: calc(100% / 4); */
+    height: auto;
+  }
+  #digital-market_ {
+    width: 100%;
+  }
+  #right {
+    height: 70px;
+  }
+  #msg {
+    width: 100%;
+  }
+  input[type="button"] {
+    width: 100%;
+  }
+  /* div.row {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    display: block;
+  } */
+  #part1 {
+    margin-top: 52px;
+  }
+  
+  #section1 {
+    height: 150vh;
+  }
+}
