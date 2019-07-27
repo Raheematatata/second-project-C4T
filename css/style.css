@@ -377,3 +377,41 @@ input[type="button"] {
   margin-top: 30px;
   color: white;
 }
+#section10 {
+  width: 100%;
+  height: auto;
+  background-color: #131212;
+  overflow: hidden;
+  color: white;
+}
+
+#footer {
+  height: 400px;
+  margin-top: 50px;
+  color: #9b9797;
+  padding-left: 20px;
+}
+
+#footer p {
+  line-height: 33px;
+}
+
+#footer span {
+  line-height: 33px;
+}
+
+#footer li a {
+  color: #9b9797;
+}
+
+#right {
+  width: 100%;
+  height: 50px;
+  border-top: 0.1px solid #9b9797;
+  color: #9b9797;
+}
+
+#right p {
+  text-align: center;
+  margin-top: 15px;
+}
