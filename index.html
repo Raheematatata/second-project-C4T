@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!---css link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="section1">
+            <div class="container">
+                <!--Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <a href="#section1" class="logo" id="logo">
+                        <i class="fa fa-cloud"></i>
+                        <span id="name">Digital</span>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-content">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#section1">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#section2">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a href="#section3" class="dropdown-item">Marketing Process</a>
+                                    <a href="#section6" class="dropdown-item">Portfolio</a>
+                                    <a href="#section7" class="dropdown-item">Partners</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#section8" class="nav-link">Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#section9" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--banner-->
+                <!-- <div class="container_"> -->
+                    <div class="row" id="banner-1">
+                        <div class="lettering" id="part1">
+                            <h2>Welcome To Digital Marketing Agency</h2>
+                            <p>
+                                Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus
+                                vel,
+                                ultrices in ligula.
+                                Nulla ut sollicitudin velit. Sed porttitor orci vel fermentum maximus.
+                                Curabitur ut turpis massa.
+                            </p>
+                            <div>
+                                <button id="btn" class="read-more-btn" data-toggle="modal"
+                                    data-target="#readmore-btn">Read More</button>
+                                <button id="btn" class="watch-video-btn" data-toggle="modal"
+                                    data-target="#Watchvideo-btn" style="margin-left: 20px">Watch Video</button>
+                            </div>
+                        </div>
+                        <div class="pic" id="part1">
+                            <img src="images/bannerpng.png" alt="" srcset="" style="margin-left: 0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------Read more modal----------------------->
+            <div class="modal fade" id="readmore-btn" tabindex="1" role="dialog" aria-labelledby="image2"
+                aria-hidden="false">
+                <div class="modal-dialog  modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-tittle">Title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                <span arial-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-fluid" src="images/banner.png" alt="" srcset="">
+                            <p id="modal-body-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Watch video-->
+            <div class="modal fade" id="Watchvideo-btn" tabindex="1" role="dialog" aria-labelledby="image2"
+                aria-hidden="false">
+                <div class="modal-dialog  modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-tittle">Title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                <span arial-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video src="www.youtube.com"></video>
+                            <p id="modal-body-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
