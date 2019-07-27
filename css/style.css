@@ -251,3 +251,89 @@ a:hover {
   font-size: 50px;
   margin-top: 2%;
 }
+#section8 {
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+img {
+  margin-left: -33px;
+}
+
+.team1 {
+  background: url("../images/team1.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: one;
+  background-repeat: none;
+}
+
+.team2 {
+  background: url("../images/team2.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: two;
+  background-repeat: none;
+}
+
+.team3 {
+  background: url("../images/team3.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: three;
+  background-repeat: none;
+}
+
+.team4 {
+  background: url("../images/team4.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: four;
+  background-repeat: none;
+}
+
+.team5 {
+  background: url("../images/team5.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: five;
+  background-repeat: none;
+}
+
+.team6 {
+  background: url("../images/team6.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: six;
+  background-repeat: none;
+}
+
+.team7 {
+  background: url("../images/team7.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: seven;
+  background-repeat: none;
+}
+
+.team8 {
+  background: url("../images/team2.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  grid-area: eight;
+  background-repeat: none;
+}
+
+#team {
+  display: grid;
+  min-height: 500px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "one two three four"
+    "five six seven eight";
+  grid-gap: 30px;
+  margin-top: 40px;
+}
