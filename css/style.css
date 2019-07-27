@@ -212,3 +212,25 @@ a:hover {
   height: auto;
   overflow: hidden;
 }
+#section5 {
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+#digital-market_ {
+  width: 50%;
+  height: auto;
+  margin-top: 100px;
+}
+
+#digital-market_ h2 {
+  font-weight: bold;
+}
+
+#digital-market_ p {
+  line-height: 35px;
+  margin-top: 30px;
+  font-size: 18px;
+}
